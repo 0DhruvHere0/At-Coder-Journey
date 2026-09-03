@@ -1,8 +1,13 @@
-At first I looked at the problem statement and saw the inputs that were single integer that will store the size of array and input of the array itself.
-Then I looked at the code constrains that were:
-    1. The array will always be of even length.
-    2. The max size of array will be 100.
-    This gave me the idea that brute force approach will work well
-So, I created the array. And wrote a "for-loop" from the N/2th element that is our first index for second half till the last index of the array that is N.
-And I iterated through each element and added their values to a pre-existent variable that I created as "sum=0" and then printed sum in the end. 
-Making this code give the status AC(Accepted)
+# Approach
+At first, I looked at the problem statement and saw that the input consisted of:
+- A single integer `N`, which represents the size of the array.
+- The values of the array itself.
+Then, I looked at the constraints:
+1. The array will always have an even length.
+2. The maximum size of the array is `100`.
+Since the array size is very small, this gave me the idea that a brute-force approach would work well.
+So, I created the array and then used a `for-loop` starting from the `N/2`-th element.
+The `N/2`-th element is the first element of the **second half** of the array.
+For example, if:
+```text
+N = 6
