@@ -8,6 +8,3 @@ Then, I looked at the constraints:
 Since the array size is very small, this gave me the idea that a brute-force approach would work well.
 So, I created the array and then used a `for-loop` starting from the `N/2`-th element.
 The `N/2`-th element is the first element of the **second half** of the array.
-For example, if:
-```text
-N = 6
