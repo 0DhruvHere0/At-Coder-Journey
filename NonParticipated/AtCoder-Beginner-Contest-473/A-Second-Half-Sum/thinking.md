@@ -5,6 +5,8 @@ At first, I looked at the problem statement and saw that the input consisted of:
 Then, I looked at the constraints:
 1. The array will always have an even length.
 2. The maximum size of the array is `100`.
+```text
 Since the array size is very small, this gave me the idea that a brute-force approach would work well.
 So, I created the array and then used a `for-loop` starting from the `N/2`-th element.
 The `N/2`-th element is the first element of the **second half** of the array.
+```
